@@ -39,7 +39,6 @@ func main() {
 				output += "MOV "
 				isMov = true
 				d = b << 6 & 128 != 0 
-				fmt.Println(d)
 				w = boolToInt(b << 7 & 128 == 0)
 				isFirstByte = false
 				continue
