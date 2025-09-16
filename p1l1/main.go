@@ -41,8 +41,6 @@ func main() {
 				d = b << 6 & 128 != 0 
 				fmt.Println(d)
 				w = boolToInt(b << 7 & 128 == 0)
-				fmt.Println(w)
-				fmt.Println(isMov)
 				isFirstByte = false
 				continue
 			} else {
